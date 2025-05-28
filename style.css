@@ -124,6 +124,43 @@ body {
     color: white;
 }
 
+.projects-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.project {
+    background-color: #1A1A2E;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project h4{
+    color: white;
+    margin-top: 75px;
+}
+
+.project p {
+    color: white;
+}
+
+.project a {
+    margin-top: auto;
+    padding: 10px 40px;
+    background-color: #FF3E50;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background-color: #bc4954;
+}
+
 .contact-box {
     display: flex;
     flex-direction: column;
@@ -156,10 +193,12 @@ body {
     height: 30px;
     border-radius: 20px;
     border: none;
+    background-color: #FF3E50;
+    color: white
 }
 
 .contact form button:hover {
-    background-color: #E63E50;
+    background-color: #bc4954;
     color: white;
     cursor: pointer;
 }
